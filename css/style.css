@@ -1,0 +1,113 @@
+/*******tic-tac-toe******/
+#tic-tac-toe .disable {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#tic-tac-toe #game .cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  color: #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+#tic-tac-toe #game .cell.disable {
+  color: #fff;
+}
+#tic-tac-toe #game {
+  display: grid;
+  gap: 0px;
+  position: relative;
+}
+#tic-tac-toe #reset {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+.input-prepend span.pre_text {
+  width: 55px;
+}
+.input-prepend .span1 {
+  width: 93px;
+}
+.input-prepend {
+  margin-bottom: 0px;
+}
+#size {
+  margin-bottom: 0px;
+}
+.clr {
+  clear: both;
+  height: 0;
+}
+#tic-tac-toe h1 {
+  text-align: center;
+  font-size: 28px;
+}
+#tic-tac-toe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+.input-append .win_times {
+  background: #fff;
+  width: 101px;
+}
+.input-append .win_text {
+  width: 52px;
+}
+.border-1 {
+  border: 5px solid #000;
+  border-top: 0px;
+  border-left: 0px;
+}
+.border-2 {
+  border: 5px solid #000;
+  border-top: 0px;
+}
+.border-3 {
+  border: 5px solid #000;
+  border-top: 0px;
+  border-right: 0px;
+}
+.border-4 {
+  border: 5px solid #000;
+  border-left: 0px;
+}
+.border-5 {
+  border: 5px solid #000;
+}
+.border-6 {
+  border: 5px solid #000;
+  border-right: 0px;
+}
+.border-7 {
+  border: 5px solid #000;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+.border-8 {
+  border: 5px solid #000;
+  border-bottom: 0px;
+}
+.border-9 {
+  border: 5px solid #000;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+/*******tic-tac-toe END******/

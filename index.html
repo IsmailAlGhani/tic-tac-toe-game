@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe game</title>
+
+    <link
+      rel="stylesheet prefetch"
+      href="https://getbootstrap.com/2.3.2/assets/css/bootstrap.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="tic-tac-toe">
+      <h1>Tic Tac Toe</h1>
+      <div class="d-flex flex-row input-prepend input-append">
+        <span class="add-on win_text">O won</span
+        ><strong id="o_win" class="win_times add-on">0</strong
+        ><span class="add-on">time(s)</span>
+      </div>
+      <div class="d-flex flex-row input-prepend input-append">
+        <span class="add-on win_text">X won</span
+        ><strong id="x_win" class="win_times add-on">0</strong
+        ><span class="add-on">time(s)</span>
+      </div>
+      <div class="form-inline mb-0">
+        <label for="size" class="m-2">Board Size: </label>
+        <input type="number" id="size" min="3" max="10" value="3" class="m-2" />
+        <button id="changeSizeBtn" class="btn m-2">Change Size</button>
+      </div>
+      <div id="game"></div>
+      <a href="#" id="reset" class="btn-success btn">Restart</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
