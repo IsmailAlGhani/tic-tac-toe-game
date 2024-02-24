@@ -1,4 +1,4 @@
-This is a [Tic Tac Toe Game](https://movie-virtual-spirit.vercel.app/) project for Frontend Test.
+This is a [Tic Tac Toe Game](https://tic-tac-toe-game-opal-tau.vercel.app/) project for Frontend Test.
 
 ## Getting Started
 
