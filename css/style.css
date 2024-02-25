@@ -22,6 +22,11 @@
   display: grid;
   gap: 0px;
   position: relative;
+  max-width: 480px;
+  max-height: 480px;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 #tic-tac-toe #reset {
   padding: 5px 10px;

@@ -163,12 +163,12 @@ $(document).ready(function () {
 
   $changeSizeBtn.click(function () {
     const newSize = parseInt($sizeInput.val(), 10);
-    if (newSize >= 3 && newSize <= 10) {
+    if (newSize >= 3) {
       boardSize = newSize;
       resetGame();
       createBoard();
     } else {
-      alert("Please enter a valid size between 3 and 10.");
+      alert("Please enter a valid size more than equal 3.");
     }
   });
 
